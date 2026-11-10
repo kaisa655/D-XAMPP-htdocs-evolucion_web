@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Historia y desarrollo de la World Wide Web.">
+  <title>Historia | Evolución de la Web</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <p class="eyebrow">Proyecto académico</p>
+      <h1>Historia de la Web</h1>
+      <p class="subtitle">De una idea para compartir documentos a una plataforma de aplicaciones.</p>
+    </div>
+  </header>
+
+  <nav class="main-nav" aria-label="Navegación principal">
+    <div class="container nav-links">
+      <a href="index.php">Inicio</a>
+      <a href="historia.php" aria-current="page">Historia</a>
+      <a href="tecnologias.php">Tecnologías</a>
+      <a href="linea-tiempo.php">Línea del tiempo</a>
+      <a href="contacto.php">Formulario</a>
+    </div>
+  </nav>
+
+  <main class="container content">
+    <section class="panel">
+      <h2>Los primeros pasos</h2>
+      <p>En 1989, el científico informático <strong>Tim Berners-Lee</strong>, mientras trabajaba en el CERN, propuso un sistema para compartir información mediante documentos enlazados. La idea dio origen a la World Wide Web.</p>
+      <p>En 1990 se desarrollaron los primeros componentes básicos: un navegador, un servidor web y las primeras versiones de HTML, HTTP y las direcciones URL.</p>
+      <h3>¿Por qué fue importante?</h3>
+      <p>Los hipervínculos permitieron conectar documentos y navegar de una página a otra. Con el tiempo, los navegadores gráficos facilitaron el acceso a la Web para más personas.</p>
+      <h3>De páginas estáticas a aplicaciones</h3>
+      <p>Al principio, muchos sitios mostraban principalmente texto y enlaces. Después se incorporaron estilos visuales, contenido multimedia, interacción y servicios que funcionan directamente en el navegador.</p>
+      <h4>Ideas clave</h4>
+      <ul>
+        <li>Los enlaces conectan documentos y recursos.</li>
+        <li>Los estándares ayudan a que los sitios funcionen en distintos navegadores.</li>
+        <li>La Web continúa evolucionando con nuevas necesidades y tecnologías.</li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2>Fuente externa</h2>
+      <p>El CERN conserva información sobre el nacimiento de la Web. Puedes consultar su sitio oficial en este <a href="https://home.cern/science/computing/birth-web" target="_blank" rel="noopener noreferrer">artículo sobre el nacimiento de la Web</a>.</p>
+      <p>También puedes regresar a la <a href="index.php">página de inicio</a> o consultar la <a href="linea-tiempo.php">línea del tiempo</a>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Proyecto académico: Evolución de la Web.</p>
+      <p><a href="index.php">Volver al inicio</a></p>
+    </div>
+  </footer>
+</body>
+</html>
